@@ -24,7 +24,13 @@ Aufruf dann mittels python3 main.py
   
 ### Linux:
 
-Voraussetzungen (für GUI-Betrieb)
+Wenn Wine bereits auf dem System installiert ist, lässt sich die Windows-EXE einfach per
+
+    wine RSCPGui.exe
+
+ausführen. Alternativ kann man Wine für seine jeweilige Distro installieren, wie [bspw. für Ubuntu](https://wiki.ubuntuusers.de/Wine/).
+
+Voraussetzungen für den nativen GUI-Betrieb
 
     apt-get install git python3-dev libgtk-3-dev libpulse-dev python3-venv wheel
     pip3 install -r requirements.txt
